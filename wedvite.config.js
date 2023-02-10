@@ -6,6 +6,7 @@ export const projectTitle = 'Asr & Zahin';
 
 export const allowedEmails = [
   "fadziljusri@gmail.com",
+  "nurhidayatulain1007@gmail.com"
 ]
 
 export const fireStore = {
