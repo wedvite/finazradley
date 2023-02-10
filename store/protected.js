@@ -111,6 +111,10 @@ export const mutations = {
     state.invitationText = text || "";
   },
   SET_GUESTLIST(state, list) {
+    list = list.map(l => ({
+      ...l,
+      guest: String(l?.guest || "")
+    }))
     state.guestlist = list;
   },
   SET_CURRENT_GUEST(state, guest) {
