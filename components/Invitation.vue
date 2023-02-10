@@ -1,11 +1,5 @@
 <template>
 	<section id="invitation" class="section has-text-centered">
-		<img
-			data-aos="zoom-in"
-			src="~/assets/images/line-up.png"
-			style="width: 100%; margin-bottom: 0"
-		/>
-
 		<!-- <img
 			data-aos="zoom-in"
 			src="~/assets/images/bismillah-white.png"
@@ -14,9 +8,9 @@
 		/> -->
 		<img
 			data-aos="zoom-in"
-			src="~/assets/images/assalamualaikum-white.png"
+			src="~/assets/images/assalamualaikum.png"
 			alt="assalamualaikum"
-			style="width: 50%; margin-bottom: 0"
+			style="width: 50%; margin-bottom: 1rem"
 		/>
 		<div>
 			<div
@@ -99,12 +93,6 @@
 				></div>
 			</div>
 		</div>
-
-		<img
-			data-aos="zoom-in"
-			src="~/assets/images/line-down.png"
-			style="width: 100%; margin-top: 0.5rem"
-		/>
 	</section>
 </template>
 
@@ -204,6 +192,13 @@ export default {
 	font-family: $secondary-font;
 	text-transform: uppercase;
 	font-weight: bold;
+
+	.amp {
+		text-transform: lowercase;
+		font-size: 0.9rem;
+		font-weight: normal;
+		font-family: $primary-font;
+	}
 }
 
 .place,

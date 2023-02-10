@@ -22,14 +22,14 @@
 		</div>
 		<div class="hero-body">
 			<div v-if="!i.override_main" class="container has-text-centered">
-				<img
+				<!-- <img
 					data-aos="zoom-in"
 					data-aos-duration="1000"
 					data-aos-delay="500"
-					src="~/assets/images/bismillah-white.png"
+					src="~/assets/images/bismillah.png"
 					alt="bismillahirrahmanirrahim"
 					style="width: 35%; margin-bottom: 0.5rem"
-				/>
+				/> -->
 				<div
 					data-aos="zoom-in"
 					data-aos-offset="0"
@@ -40,14 +40,6 @@
 				>
 					{{ i.main_section.title }}
 				</div>
-
-				<img
-					data-aos="zoom-in"
-					data-aos-duration="1000"
-					data-aos-delay="500"
-					src="~/assets/images/line-up.png"
-					style="width: 60%; margin-bottom: 0"
-				/>
 
 				<div
 					class="couples"
@@ -91,14 +83,6 @@
 					</div>
 				</div>
 
-				<img
-					data-aos="zoom-in"
-					data-aos-duration="1000"
-					data-aos-delay="500"
-					src="~/assets/images/line-down.png"
-					style="width: 60%; margin-top: 0; margin-bottom: 1rem"
-				/>
-
 				<div
 					data-aos="zoom-in"
 					data-aos-offset="0"
@@ -106,17 +90,18 @@
 					data-aos-delay="500"
 					class="dates"
 					:class="'dates-' + i.theme"
+					style="margin-top: 1rem"
 				>
 					<!-- <div class="date-gregorian">{{ i.date.greg }}</div> -->
 
 					<div class="date-gregorian">
-						<span class="month">Oktober</span>
+						<span class="month">May</span>
 						<span>
 							<span class="day">Sabtu</span>
-							<span class="day-number">29</span>
-							<span class="time">11.00AM</span>
+							<span class="day-number">6</span>
+							<span class="time">11.30AM</span>
 						</span>
-						<span class="year">2022</span>
+						<span class="year">2023</span>
 					</div>
 					<div v-if="i.date.hijri" class="date-hijri">
 						{{ i.date.hijri }}

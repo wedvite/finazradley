@@ -1,35 +1,35 @@
 {
-  "theme": "custom",
+  "theme": "baby-blue-floral",
   "lang": "ms",
   "groom_or_bride_first": "bride",
   "groom": {
-    "fullname": "Muhammad Fadzil bin Mohd Jusri",
-    "nickname": "Fadzil"
+    "fullname": "ZAHIN AFFANDY BIN ZULKIFLI",
+    "nickname": "Zahin"
   },
   "bride": {
-    "fullname": "Nurhanis binti Mohd Shukri",
-    "nickname": "Hanis"
+    "fullname": "NURHIDAYATUL ASR BTE MOHD NORIZAN",
+    "nickname": "Asr"
   },
   "parents": {
-    "name": "Mohd Shukri bin Mat Nor",
-    "andWith": "Siti Zubaidah binti Zainuddin"
+    "name": "MOHD NORIZAN BIN MUKHTAR",
+    "andWith": "QUSLIZA BTE IBRAHIM"
   },
   "date": {
-    "greg": "29 Oktober 2022",
-    "_hijri": "4 Rabiulakhir 1444h"
+    "greg": "6 May 2023",
+    "_hijri": "16 Syawal 1444h"
   },
   "time": {
-    "from": "11:00 AM",
+    "from": "11:30 AM",
     "to": "4:00 PM"
   },
   "address": {
-    "general": "E14 Felda Sendayan, <br>Seremban",
-    "exact_html": "E14 Felda Sendayan, 71950 Seremban, Negeri Sembilan",
-    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.3685812309375!2d101.84726730226927!3d2.6739000000000135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x994e748f3b240f55!2zMsKwNDAnMjYuMCJOIDEwMcKwNTAnNTIuMCJF!5e0!3m2!1sen!2smy!4v1657979741871!5m2!1sen!2smy\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
-    "gmaps_link": "https://maps.app.goo.gl/SgegdrYxF8Cknh167",
-    "waze_link": "https://waze.com/ul/hw22rjwg7c?&navigate=yes&zoom=16"
+    "general": "VEILLARIS BANGI",
+    "exact_html": "Veillaris Bangi, Lot 6521, Sg.Ramal Dalam, Kajang.",
+    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4525006867475!2d101.76302371535382!3d2.9718561978355913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcbc7b627b499%3A0xf436e33e1be69ca0!2sVeillaris%20Bangi!5e0!3m2!1sen!2ssg!4v1676024367966!5m2!1sen!2ssg\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+    "gmaps_link": "https://goo.gl/maps/9uVeZwRw7njWBHoC6",
+    "waze_link": "https://ul.waze.com/ul?place=ChIJmbQntsfLzTERoJzmGz7jNvQ&ll=2.97185620%2C101.76521240&navigate=yes"
   },
-  "countdown_end": "2022-10-29 11:00 AM",
+  "countdown_end": "2023-05-06 11:30 AM",
   "main_section": {
   },
   "invitation_section": {
@@ -41,82 +41,54 @@
     "style": "col",
     "tentatives": [
       {
-        "time": "11:00 AM",
-        "details": "Majlis Bermula"
+        "time": "11:30 AM",
+        "details": "Ketibaan Tetamu Jemputan"
       },
       {
         "time": "12:30 PM",
-        "details": "Ketibaan Pengantin"
+        "details": "Ketibaan Pasangan Pengantin"
       },
       {
         "time": "4:00 PM",
-        "details": "Majlis Berakhir"
+        "details": "Berakhirnya Majlis"
       }
     ]
   },
   "doa_section": {
-    "text": "“Ya Allah Ya Tuhan Kami.. Jadikanlah rumahtangga kedua mempelai ini seindah rumahtangga Adam dan Hawa, setabah Ibrahim dan Hajar, sebahagia Yusof dan Zulaikha, sesetia Sulaiman dan Balqis serta sesuci Muhammad dan Khadijah. Murahkanlah rezeki mereka, panjangkanlah umur mereka, dekatkan mereka kepada kebaikan , jauhkan mereka dari keburukan dan kurniakanlah mereka kesenangan di dunia dan akhirat.”"
+    "text": "“Ya Allah Ya Rahman Ya Rahim, berkatilah majlis perkahwinan ini. Limpahkanlah baraqah dan rahmat kepada kedua mempelai. Kurniakanlah mereka kelak zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini. <br><br>Ya Allah Ya Rahman Ya Rahim, Berkatilah majlis perkahwinan ini. Limpahkanlah Baraqah dan Rahmat kepada kedua mempelai. Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini. Aamin Ya'Rabal'Alamiin.”"
   },
   "social_section": {
-    "ig_tags": "HanisForFadzil",
+    "ig_tags": "",
     "ig_signature": null,
     "carouselAutoplay": true,
     "images": [
-      {
-        "src": "/images/ring.jpeg",
-        "_htmlTitle": "Hey sayangku!"
-      },
-      {
-        "src": "/images/us.jpeg",
-        "_htmlTitle": "Hey sayangku!"
-      }
     ]
   },
   "contact_section": {
     "override_icons_color": true,
     "contacts": [
       {
-        "name": "Shukri",
-        "rel": "Ayah",
-        "tel": 60199654231,
+        "name": "Mohd Norizan",
+        "_rel": "Ayah",
+        "tel": 60192268112,
         "whatsapp": true
       },
       {
-        "name": "Zubaidah",
-        "rel": "Mak",
-        "tel": 601151416709,
+        "name": "Qusliza",
+        "tel": 60197730358,
         "whatsapp": true
       },
       {
-        "name": "Syuhada",
-        "rel": "Adik",
-        "tel": 601111528414,
-        "whatsapp": true
-      },
-      {
-        "name": "Luqman",
-        "rel": "Adik",
-        "tel": 60106644025,
-        "whatsapp": true
-      },
-      {
-        "name": "Husna",
-        "rel": "Adik",
-        "tel": 60176314473,
-        "whatsapp": true
-      },
-      {
-        "name": "Mustaqim",
-        "rel": "Adik",
-        "tel": 601139766806,
+        "name": "Ain",
+        "tel": 601115051798,
         "whatsapp": true
       }
     ]
   },
   "ics": {
     "enabled": 1,
-    "subject": "Walimatulurus - Hanis & Fadzil",
-    "start": [2022, 10, 29, 11, 0],
-    "duration": { "hours": 5 }
+    "subject": "Walimatulurus - Asr & Zahin",
+    "start": [2023, 5, 6, 11, 30],
+    "duration": { "hours": 4, "minutes": 30 }
   }
 }
