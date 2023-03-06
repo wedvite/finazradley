@@ -2,12 +2,21 @@
   "theme": "baby-blue-floral",
   "lang": "ms",
   "groom_or_bride_first": "bride",
+  "section_status": {
+    "main": 1,
+    "invitation": 1,
+    "tentative": 1,
+    "doa": 1,
+    "countdown": 1,
+    "social": 1,
+    "wishlist": 0
+},
   "groom": {
-    "fullname": "ZAHIN AFFANDY BIN ZULKIFLI",
+    "fullname": "HJ. ZAHIN AFFANDY BIN ZULKIFLI",
     "nickname": "Zahin"
   },
   "bride": {
-    "fullname": "NURHIDAYATUL ASR BTE MOHD NORIZAN",
+    "fullname": "HJH. NURHIDAYATUL ASR BTE MOHD NORIZAN",
     "nickname": "Asr"
   },
   "parents": {
@@ -33,7 +42,7 @@
   "main_section": {
   },
   "invitation_section": {
-    "title": "JEMPUTAN MAJLIS PERKAHWINAN",
+    "title": "Dengan penuh kesyukuran, kami",
     "text": "Dengan segala hormatnya kami mempersilakan <br>Tan Sri/Dato'/Datin/Tuan/Puan/Encik/Cik <div class='guest guest-box'><br><\/div>bagi memeriahkan majlis perkahwinan anakanda kami"
   },
   "tentative_section": {
@@ -55,7 +64,7 @@
     ]
   },
   "doa_section": {
-    "text": "“Ya Allah Ya Rahman Ya Rahim, berkatilah majlis perkahwinan ini. Limpahkanlah baraqah dan rahmat kepada kedua mempelai. Kurniakanlah mereka kelak zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini. <br><br>Ya Allah Ya Rahman Ya Rahim, Berkatilah majlis perkahwinan ini. Limpahkanlah Baraqah dan Rahmat kepada kedua mempelai. Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini. Aamin Ya'Rabal'Alamiin.”"
+    "text": "“Ya Allah Ya Rahman Ya Rahim, Berkatilah majlis perkahwinan ini. Limpahkanlah Baraqah dan Rahmat kepada kedua mempelai. Kurniakanlah mereka zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah,juga sempurnakanlah agama mereka dengan berkat ikatan ini. Aamin Ya'Rabal'Alamiin.”"
   },
   "social_section": {
     "ig_tags": "",

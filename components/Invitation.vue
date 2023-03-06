@@ -145,7 +145,7 @@ export default {
 }
 
 .main-title {
-	font-size: 1rem;
+	font-size: 0.9rem;
 	margin-bottom: 1rem;
 }
 

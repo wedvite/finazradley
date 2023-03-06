@@ -169,7 +169,7 @@
                 <div class="field">
                   <label class="label">Pax</label>
                   <div class="control">
-                    <div
+                    <!-- <div
                       class="dropdown"
                       :class="{ 'is-active': showPaxDropdown }"
                       style="width: 100%"
@@ -212,13 +212,13 @@
                           </a>
                         </div>
                       </div>
-                    </div>
-                    <!-- <input
+                    </div> -->
+                    <input
                       class="input is-rounded"
                       type="number"
                       v-model="rsvp.details.pax"
                       placeholder="Pax"
-                    /> -->
+                    />
                   </div>
                 </div>
               </div>
