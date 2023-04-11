@@ -105,9 +105,9 @@
       </article>
 
       <div
+        v-if="dbRsvp.length && user"
         data-aos="zoom-in"
         data-aos-offset="100"
-        v-if="dbRsvp.length"
         class="buttons is-centered more"
       >
         <a class="has-text-link pointer no-select" href="/rsvp">Semua RSVP</a>
@@ -299,6 +299,7 @@ export default {
       countdownEnd: (state) => state.info.countdown_end,
       rsvp_section: (state) => state.info.rsvp_section,
       currentGuest: (state) => state.protected.currentGuest,
+			user: (state) => state.auth.user,
     }),
     ...mapGetters(["countRsvpStatus"]),
     sortedRsvp() {
