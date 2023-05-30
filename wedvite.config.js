@@ -1,12 +1,12 @@
 
 // Demo
-export const project = 'mnorizan';
-export const wishlistDoc = "mnorizan";
-export const projectTitle = 'Asr & Zahin';
+export const project = 'azimkhady';
+export const wishlistDoc = "azimkhady";
+export const projectTitle = 'Azim & Khadijah';
 
 export const allowedEmails = [
   "fadziljusri@gmail.com",
-  "nurhidayatulain1007@gmail.com"
+  "azim.utp95@gmail.com"
 ]
 
 export const fireStore = {

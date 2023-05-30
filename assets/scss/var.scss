@@ -12,10 +12,10 @@ Default Font
     src: local('Omnes'),
         url(~assets/fonts/Omnes.ttf) format('truetype');
 }
-$font-url: 'https://fonts.googleapis.com/css?family=Poppins:wght@500&display=swap';
+$font-url: 'https://fonts.googleapis.com/css?family=Lobster:wght@500&&display=swap';
 
 $cover-font: 'Agnes';
 $primary-font: 'Omnes', sans-serif;
-$secondary-font: 'Poppins', sans-serif;
+$secondary-font: 'Lobster', sans-serif;
 $countdown-font: 'Agnes';
 // $countdown-font: 'Alex Brush', cursive;

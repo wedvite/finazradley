@@ -1,25 +1,29 @@
 // Custom theme
-$custom-primary: #242053;
-$custom-secondary: #F7D075;
-$custom-tertiary: #fff;
+$custom-primary: #fff;
+$custom-secondary: #134E6F;
+$custom-tertiary: #134E6F;
 
 @import "~assets/scss/var.scss";
 
-.bg-custom,
-.bgt-custom {
+.bg-custom {
   background-color: $custom-primary !important;
   color: $custom-secondary !important;
 }
 
+.bgt-custom {
+  background-color: #DAE8F3 !important;
+  color: $custom-secondary !important;
+}
+
 .bg-image-custom {
-  background-image: url("~assets/frames/custom/custom.jpeg");
+  background-image: url("~assets/frames/custom/custom.png");
   background-size: 100% auto;
   background-position: center center;
 }
 
 .bgi-custom {
-  background-color: $custom-primary !important;
-  // background-image: url("~assets/frames/custom/custom.jpeg");
+  background-color: #DAE8F3 !important;
+  // background-image: url("~assets/frames/custom/custom.png");
   // background-size: 100% auto;
   // background-position: center center;
   color: $custom-secondary !important;
@@ -30,7 +34,7 @@ $custom-tertiary: #fff;
 }
 
 .txt-dark-custom {
-  color: $custom-primary !important;
+  color: $custom-secondary !important;
 }
 
 .guest.available {
@@ -103,7 +107,7 @@ $custom-tertiary: #fff;
 }
 
 #invitation {
-  // background-image: url("~assets/frames/custom/custom.jpeg");
+  // background-image: url("~assets/frames/custom/custom.png");
   // background-size: 100% 100%;
   // background-position: center center;
   background-color: $custom-primary;
@@ -131,10 +135,10 @@ $custom-tertiary: #fff;
 }
 
 #tentative {
-  background-color: $custom-tertiary !important;
-  color: #4a4a4a !important;
+  // background-color: $custom-tertiary !important;
+  // color: #4a4a4a !important;
   // color: $custom-;
-  // background-image: url("~assets/frames/custom/custom.jpeg");
+  // background-image: url("~assets/frames/custom/custom.png");
   // background-size: 100% auto;
   // background-position: center center;
 }

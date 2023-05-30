@@ -1,7 +1,8 @@
 {
-  "theme": "baby-blue-floral",
+  "theme": "custom",
+  "override_main": true,
   "lang": "ms",
-  "groom_or_bride_first": "bride",
+  "groom_or_bride_first": "groom",
   "section_status": {
     "main": 1,
     "invitation": 1,
@@ -9,53 +10,49 @@
     "doa": 1,
     "countdown": 1,
     "social": 1,
-    "wishlist": 0
+    "wishlist": 1
 },
   "groom": {
-    "fullname": "ZAHIN AFFANDY BIN ZULKIFLI",
-    "nickname": "Zahin"
+    "fullname": "Abdul Azim Bin Azhar",
+    "nickname": "Azim"
   },
   "bride": {
-    "fullname": "NURHIDAYATUL ASR BTE MOHD NORIZAN",
+    "fullname": "Siti Khadijah Binti Idris",
     "nickname": "Asr"
   },
   "parents": {
-    "name": "HJ. MOHD NORIZAN BIN MUKHTAR",
-    "andWith": "HJH. QUSLIZA BTE IBRAHIM"
+    "name": "Azhar Bin Ahmad Alwi",
+    "andWith": "Uma Salmah Binti Abdul Kadir"
   },
   "date": {
-    "greg": "6 May 2023",
-    "_hijri": "16 Syawal 1444h"
+    "greg": "1 JULAI 2023",
+    "hijri": "12 ZULHIJJAH 1444H"
   },
   "time": {
-    "from": "11:30 AM",
+    "from": "12:00 PM",
     "to": "4:00 PM"
   },
   "address": {
-    "general": "VEILLARIS BANGI",
-    "exact_html": "Veillaris Bangi, Lot 6521, Sg.Ramal Dalam, Kajang.",
-    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4525006867475!2d101.76302371535382!3d2.9718561978355913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdcbc7b627b499%3A0xf436e33e1be69ca0!2sVeillaris%20Bangi!5e0!3m2!1sen!2ssg!4v1676024367966!5m2!1sen!2ssg\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
-    "gmaps_link": "https://goo.gl/maps/9uVeZwRw7njWBHoC6",
-    "waze_link": "https://ul.waze.com/ul?place=ChIJmbQntsfLzTERoJzmGz7jNvQ&ll=2.97185620%2C101.76521240&navigate=yes"
+    "general": "4, Taman Alor Setar, Lorong Bantara 1",
+    "exact_html": "4, Taman Alor Setar, Lorong Bantara 1, Jalan Teluk Wanjah, 05200, Alor Setar, Kedah",
+    "map_embed": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.091932227585!2d100.37506597557567!3d6.118326427737927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b44c17e4e0d6d%3A0x20651ff4e2dd676b!2s4%2C%20Jalan%20Taman%20Alor%20Setar%2C%20Bandar%20Alor%20Setar%2C%2005200%20Alor%20Setar%2C%20Kedah!5e0!3m2!1sen!2smy!4v1685437691269!5m2!1sen!2smy\" width=\"100%\" height=\"200\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+    "gmaps_link": "https://goo.gl/maps/fkieEE6XmvTrQEZE7",
+    "waze_link": "https://ul.waze.com/ul?place=Ek80LCBKYWxhbiBUYW1hbiBBbG9yIFNldGFyLCBCYW5kYXIgQWxvciBTZXRhciwgMDUyMDAgQWxvciBTZXRhciwgS2VkYWgsIE1hbGF5c2lhIjASLgoUChIJbQ1OfsFESzAR6xf1Jgy46_8QBCoUChIJW83Pe8FESzARJwJGKDQsCXM&ll=6.11832110%2C100.37764090&navigate=yes"
   },
-  "countdown_end": "2023-05-06 11:30 AM",
+  "countdown_end": "2023-07-01 12:00 PM",
   "main_section": {
   },
   "invitation_section": {
-    "title": "Dengan penuh kesyukuran, kami",
-    "text": "Dengan segala hormatnya kami mempersilakan <br>Tan Sri/Dato'/Datin/Tuan/Puan/Encik/Cik <div class='guest guest-box'><br><\/div>bagi memeriahkan majlis perkahwinan anakanda kami"
+    "title": "Undangan Majlis Perkahwinan",
+    "text": "Dengan segala hormatnya kami mempersilakan <br>Dato/Datin/Tuan/Puan/Encik/Cik <div class='guest guest-box'><br><\/div>ke Majlis Perkahwinan Putera kami"
   },
   "tentative_section": {
     "title": "TENTATIF",
     "style": "col",
     "tentatives": [
       {
-        "time": "11:30 AM",
-        "details": "Ketibaan Tetamu Jemputan"
-      },
-      {
-        "time": "12:30 PM",
-        "details": "Ketibaan Pasangan Pengantin"
+        "time": "12:00 PM",
+        "details": "Ketibaan Tetamu"
       },
       {
         "time": "4:00 PM",
@@ -77,27 +74,35 @@
     "override_icons_color": true,
     "contacts": [
       {
-        "name": "Mohd Norizan",
-        "_rel": "Ayah",
-        "tel": 60192268112,
+        "name": "Azim",
+        "_rel": "",
+        "tel": 601096787928,
         "whatsapp": true
       },
       {
-        "name": "Qusliza",
-        "tel": 60197730358,
+        "name": "Azhar",
+        "rel": "Ayah",
+        "tel": 60124526464,
         "whatsapp": true
       },
       {
-        "name": "Ain",
-        "tel": 601115051798,
+        "name": "Uma Salmah",
+        "rel": "Ibu",
+        "tel": 60124150705,
+        "whatsapp": true
+      },
+      {
+        "name": "Luqman",
+        "rel": "Adik",
+        "tel": 60134441090,
         "whatsapp": true
       }
     ]
   },
   "ics": {
     "enabled": 1,
-    "subject": "Walimatulurus - Asr & Zahin",
-    "start": [2023, 5, 6, 11, 30],
-    "duration": { "hours": 4, "minutes": 30 }
+    "subject": "Walimatulurus - Azim & Khadijah",
+    "start": [2023, 7, 1, 12, 0],
+    "duration": { "hours": 4, "minutes": 0 }
   }
 }
