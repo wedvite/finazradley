@@ -105,13 +105,15 @@
       </article>
 
       <div
-        v-if="dbRsvp.length && user"
+        v-if="dbRsvp.length"
         data-aos="zoom-in"
         data-aos-offset="100"
         class="buttons is-centered more"
+        style="margin: 2rem auto"
       >
         <a class="has-text-link pointer no-select" href="/rsvp">Semua RSVP</a>
       </div>
+      <div v-else style="margin: 2rem auto"></div>
 
       <!-- rsvp status -->
       <div
@@ -405,11 +407,8 @@ section,
   }
 }
 
-.more {
-  margin-top: 1rem;
-  // & > a {
-  //   // text-decoration: underline !important;
-  // }
+article.media:last-child {
+  margin-bottom: 1rem;
 }
 
 .floating-container {
