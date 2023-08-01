@@ -102,7 +102,7 @@
   },
   "ics": {
     "enabled": 1,
-    "subject": "The Wedding of - Radley & Finaz",
+    "subject": "The Wedding Of - Radley & Finaz",
     "start": [2023, 9, 30, 10, 30],
     "duration": { "hours": 4, "minutes": 30 }
   }

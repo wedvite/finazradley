@@ -53,5 +53,5 @@ export const userData = require(`./_infos/client.json`);
 
 export const cfg = {
   name: project,
-  title: "Walimatulurus - " + projectTitle,
+  title: "The Wedding Of - " + projectTitle,
 }
