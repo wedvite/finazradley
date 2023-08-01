@@ -1,5 +1,5 @@
 <template>
-  <div v-if="true">
+  <div v-if="true" style="display: flex; flex-direction: column;">
     <!-- floating logged in button -->
     <div v-if="user" class="container floating-container">
       <router-link

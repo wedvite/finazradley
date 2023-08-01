@@ -1,7 +1,7 @@
 // Custom theme
-$custom-primary: #fff;
-$custom-secondary: #134E6F;
-$custom-tertiary: #134E6F;
+$custom-primary: #C99073;
+$custom-secondary: #fff;
+$custom-tertiary: #fff;
 
 @import "~assets/scss/var.scss";
 
@@ -11,8 +11,11 @@ $custom-tertiary: #134E6F;
 }
 
 .bgt-custom {
-  background-color: #DAE8F3 !important;
-  color: $custom-secondary !important;
+  // background-image: url("~assets/frames/custom/bg-2.png");
+  // background-size: 100% 100%;
+  // background-position: center center;
+  background-color: $custom-secondary !important;
+  color: $custom-primary !important;
 }
 
 .bg-image-custom {
@@ -22,10 +25,10 @@ $custom-tertiary: #134E6F;
 }
 
 .bgi-custom {
-  background-color: #DAE8F3 !important;
-  // background-image: url("~assets/frames/custom/custom.png");
-  // background-size: 100% auto;
-  // background-position: center center;
+  background-color: $custom-primary !important;
+  background-image: url("~assets/frames/custom/bg-2.png");
+  background-size: 100% auto;
+  background-position: 50% 90%;
   color: $custom-secondary !important;
 }
 
@@ -34,7 +37,7 @@ $custom-tertiary: #134E6F;
 }
 
 .txt-dark-custom {
-  color: $custom-secondary !important;
+  color: $custom-primary !important;
 }
 
 .guest.available {
@@ -107,15 +110,15 @@ $custom-tertiary: #134E6F;
 }
 
 #invitation {
-  // background-image: url("~assets/frames/custom/custom.png");
-  // background-size: 100% 100%;
-  // background-position: center center;
+  background-image: url("~assets/frames/custom/bg-1.png");
+  background-size: 100% 100%;
+  background-position: center center;
   background-color: $custom-primary;
   color: $custom-tertiary;
   padding: 1.5rem !important;
-  .main-title {
-    text-transform: uppercase !important;
-  }
+  // .main-title {
+  //   text-transform: uppercase !important;
+  // }
 
   .couples,
   .parents,
@@ -131,6 +134,10 @@ $custom-tertiary: #134E6F;
     color: $custom-tertiary;
     font-size: 0.9rem;
     font-weight: normal !important;
+  }
+
+  .parents .amp {
+    margin: 0.25rem auto;
   }
 }
 

@@ -1,18 +1,13 @@
 <template>
 	<section id="invitation" class="section has-text-centered">
-		<!-- <img
+		<img
 			data-aos="zoom-in"
 			src="~/assets/images/bismillah-white.png"
 			alt="bismillahirrahmanirrahim"
-			style="height: 50px; margin-bottom: 1rem"
-		/> -->
-		<img
-			data-aos="zoom-in"
-			src="~/assets/images/undangan.png"
-			alt="undangan"
-			style="width: 50%; margin-bottom: 1rem"
+			style="height: 60px; margin-bottom: 1rem"
 		/>
 		<div>
+			<div data-aos="zoom-in">Assalamualaikum W.B.T</div>
 			<div
 				data-aos="zoom-in"
 				v-if="i.invitation_section.title"
@@ -22,13 +17,11 @@
 			</div>
 
 			<div v-if="i.invitation_section.show_parents" class="parents">
-				<div data-aos="zoom-out-left" data-aos-duration="1000">
-					{{ i.parents.name }}
+				<div v-html="i.parents.name" data-aos="zoom-out-left" data-aos-duration="1000">
 				</div>
 				<template v-if="i.parents.andWith">
-					<div data-aos="zoom-in">&amp;</div>
-					<div data-aos="zoom-out-right" data-aos-duration="1000">
-						{{ i.parents.andWith }}
+					<div data-aos="zoom-in" class="amp">bersama</div>
+					<div v-html="i.parents.andWith" data-aos="zoom-out-right" data-aos-duration="1000">
 					</div>
 				</template>
 			</div>
@@ -50,7 +43,7 @@
 					data-aos-duration="1000"
 					v-html="i.groom[i.invitation_section.couple_name_type]"
 				></div>
-				<div data-aos="zoom-in" class="amp">dengan pasangannya</div>
+				<div data-aos="zoom-in" class="amp">&amp;</div>
 				<div
 					:data-aos="
 						i.groom_or_bride_first === 'groom' ? 'fade-left' : 'fade-right'

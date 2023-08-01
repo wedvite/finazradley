@@ -3,19 +3,19 @@
 Default Font 
 */
 @font-face {
-    font-family: 'Agnes';
-    src: local('Agnes'),
-        url(~assets/fonts/agnes-bold.ttf) format('truetype');
+    font-family: 'twicewriting';
+    src: local('twicewriting'),
+        url(~assets/fonts/twicewriting.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'Omnes';
-    src: local('Omnes'),
-        url(~assets/fonts/Omnes.ttf) format('truetype');
+    font-family: 'Georgia';
+    src: local('Georgia'),
+        url(~assets/fonts/Georgia.ttf) format('truetype');
 }
 $font-url: 'https://fonts.googleapis.com/css?family=Lobster:wght@500&&display=swap';
 
-$cover-font: 'Agnes';
-$primary-font: 'Omnes', sans-serif;
+$cover-font: 'twicewriting';
+$primary-font: 'Georgia', sans-serif;
 $secondary-font: 'Lobster', sans-serif;
-$countdown-font: 'Agnes';
+$countdown-font: 'twicewriting';
 // $countdown-font: 'Alex Brush', cursive;
