@@ -5,6 +5,17 @@
 		<invitation v-if="check(sectionStatus.invitation)" />
 		<tentative v-if="check(sectionStatus.tentative)" />
 		<doa v-if="check(sectionStatus.doa)"></doa>
+
+		<div id="notice" class="section">
+			<div data-aos="zoom-in" data-aos-offset="300" class="text">PENTING</div>
+			<ul>
+				<li data-aos="fade-right" data-aos-offset="300">Sila bawa bersama kad touch n go anda untuk kemudahan parkir di 3 Towers.</li>
+				<li data-aos="fade-right" data-aos-offset="300">Parkir tetamu hanya boleh di park di tempat letak kenderaan di Tower 2 dan Tower 3.</li>
+				<li data-aos="fade-right" data-aos-offset="300">Sila patuhi waktu kehadiran yang telah ditetapkan bagi melancarkan perjalanan majlis.</li>
+				<li data-aos="fade-right" data-aos-offset="300">Sila tekan butang RSVP di bawah dan sah kan kehadiran anda sebelum 17 September 2023. Kerjasama daripada anda amatlah kami hargai. Terima kasih</li>
+			</ul>
+		</div>
+
 		<countdown v-if="check(sectionStatus.countdown)" />
 		<social v-if="check(sectionStatus.social)" />
 		<wishlist v-if="check(sectionStatus.wishlist)" />

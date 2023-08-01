@@ -141,11 +141,16 @@ $custom-tertiary: #fff;
   }
 }
 
-#tentative {
-  // background-color: $custom-tertiary !important;
-  // color: #4a4a4a !important;
-  // color: $custom-;
-  // background-image: url("~assets/frames/custom/custom.png");
-  // background-size: 100% auto;
-  // background-position: center center;
+#notice {
+  .text {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    text-align: justify;
+  }
 }
+
+

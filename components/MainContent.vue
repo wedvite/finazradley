@@ -1,5 +1,5 @@
 <template>
-  <div v-if="true" style="display: flex; flex-direction: column;">
+  <div v-if="true" style="display: flex; flex-direction: column">
     <!-- floating logged in button -->
     <div v-if="user" class="container floating-container">
       <router-link
@@ -10,6 +10,47 @@
         <div class="has-text-link">User Dashboard</div>
       </router-link>
     </div>
+
+    <!-- floating audio -->
+    <div id="av">
+      <audio
+        ref="song"
+        controls
+        allow="autoplay"
+        autoplay="false"
+        loop
+        preload="auto"
+      >
+        <source src="/song.mpeg" type="audio/mp3" />
+      </audio>
+    </div>
+
+    <!-- audio modal -->
+    <div
+      class="modal modal-fx-slideBottom modal-pos-center modal-audio"
+      :class="{ 'is-active': audioModal }"
+    >
+      <div
+        class="modal-background"
+        @click.prevent="audioModal = !audioModal"
+      ></div>
+      <div class="modal-content">
+        <div class="box is-size-5" :class="'bgi-' + i.theme">
+          <div class="text">Adakah anda ingin memainkan audio?</div>
+
+          <div class="buttons" style="justify-content: center;">
+            <button class="button is-rounded bg-white" @click="audioModal = !audioModal">
+              Tidak
+            </button>
+            <button class="button is-rounded bg-white" @click="playAudio()">
+              Ya
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <img src="~assets/frames/custom/custom.png" alt="" />
   </div>
   <section
@@ -139,6 +180,11 @@
 <script>
 import { mapState } from "vuex";
 export default {
+  data() {
+    return {
+      audioModal: true 
+    }
+  },
   computed: {
     ...mapState({
       i: (state) => state.info,
@@ -146,6 +192,13 @@ export default {
       user: (state) => state.auth.user,
     }),
   },
+  methods: {
+    playAudio() {
+      const audioPlayer = this.$refs.song;
+      audioPlayer.play();
+      this.audioModal = false;
+    }
+  }
 };
 </script>
 
@@ -232,7 +285,7 @@ export default {
   position: fixed;
   width: 100%;
   padding: 0 10px;
-  top: 10px;
+  top: 70px;
   z-index: 99;
   background: white;
   // text-align: right;
@@ -246,6 +299,37 @@ export default {
     float: none;
     width: 100%;
     height: 40px;
+  }
+}
+</style>
+
+<style lang="scss">
+#av {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  max-width: 520px;
+  z-index: 999;
+
+  audio {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.modal-audio {
+  .box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .text {
+      margin-bottom: 2rem;
+    }
+
+    .button {
+      min-width: 100px;
+    }
   }
 }
 </style>

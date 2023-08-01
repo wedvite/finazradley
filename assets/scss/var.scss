@@ -12,10 +12,11 @@ Default Font
     src: local('Georgia'),
         url(~assets/fonts/Georgia.ttf) format('truetype');
 }
+// $font-url: '';
 $font-url: 'https://fonts.googleapis.com/css?family=Lobster:wght@500&&display=swap';
 
 $cover-font: 'twicewriting';
 $primary-font: 'Georgia', sans-serif;
-$secondary-font: 'Lobster', sans-serif;
+$secondary-font: 'Georgia', sans-serif;
 $countdown-font: 'twicewriting';
 // $countdown-font: 'Alex Brush', cursive;

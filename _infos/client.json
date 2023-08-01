@@ -2,7 +2,7 @@
   "theme": "custom",
   "override_main": true,
   "lang": "ms",
-  "groom_or_bride_first": "bride",
+  "groom_or_bride_first": "groom",
   "section_status": {
     "main": 1,
     "invitation": 1,
@@ -25,12 +25,11 @@
     "andWith": "Megat Ahmad Zaidi Bin Abu Mansor <br>&<br> Rohani Binti Sulong"
   },
   "date": {
-    "greg": "1 JULAI 2023",
-    "hijri": "12 ZULHIJJAH 1444H"
+    "greg": "30 September 2023"
   },
   "time": {
-    "from": "12:00 PM",
-    "to": "4:00 PM"
+    "from": "10:30 AM",
+    "to": "3:30 PM"
   },
   "address": {
     "general": "Sky Grand Ballroom 3 Towers Jalan Ampang",
@@ -65,7 +64,7 @@
     ]
   },
   "doa_section": {
-    "text": "“Ya Allah Ya Rahman Ya Rahim, berkatilah majlis perkahwinan ini. Limpahkanlah baraqah dan rahmat kepada kedua mempelai. Kurniakanlah mereka kelak zuriat yang soleh dan solehah. Kekalkanlah jodoh mereka hingga ke jannah, juga sempurnakanlah agama mereka dengan berkat ikatan ini. <br><br>Ya Allah, Berkatilah & satukanlah hati kedua pasangan mempelai ini dengan iman, keyakinan dan tawakal kepadaMu, panjangkan umur mereka, lapangkanlah rezeki mereka, dekatkanlah mereka munuju kebaikan, jauhkanlah mereka dari keburukan, kurniakanlah mereka zuriat yang soleh dan solehah. Amin Ya Rabbal Alamin. Semoga dengan kehadiran anda dan doa restu anda dapat menyerikan lagi majlis kami serta diberkati Allah S.W.T”"
+    "text": "“Ya Allah, Berkatilah & satukanlah hati kedua pasangan mempelai ini dengan iman, keyakinan dan tawakal kepadaMu, panjangkan umur mereka, lapangkanlah rezeki mereka, dekatkanlah mereka munuju kebaikan, jauhkanlah mereka dari keburukan, kurniakanlah mereka zuriat yang soleh dan solehah. Amin Ya Rabbal Alamin. Semoga dengan kehadiran anda dan doa restu anda dapat menyerikan lagi majlis kami serta diberkati Allah S.W.T”"
   },
   "social_section": {
     "ig_tags": "",
@@ -78,23 +77,23 @@
     "override_icons_color": true,
     "contacts": [
       {
-        "name": "Zulailee Bin Baharum",
+        "name": "Zulailee",
         "_rel": "",
         "tel": 60126954015,
         "whatsapp": true
       },
       {
-        "name": "Ruslaili Binti Yusup",
+        "name": "Ruslaili",
         "tel": 60123999387,
         "whatsapp": true
       },
       {
-        "name": "Megat Ahmad Zaidi Bin Abu Mansor",
+        "name": "Megat Ahmad Zaidi",
         "tel": 60166252220,
         "whatsapp": true
       },
       {
-        "name": "Rohani Binti Sulong",
+        "name": "Rohani",
         "tel": 60163647194,
         "whatsapp": true
       }
