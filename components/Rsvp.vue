@@ -254,6 +254,7 @@
                 Cancel
               </div>
               <div
+                v-show="!confirmDisabled"
                 class="column pointer no-select"
                 @click.prevent="confirm()"
               >
@@ -305,6 +306,9 @@ export default {
     ...mapGetters(["countRsvpStatus"]),
     sortedRsvp() {
       return sortBy(this.dbRsvp, "details.unix").reverse().slice(0, 10);
+    },
+    confirmDisabled() {
+      return !Boolean(this.rsvp.details.name && this.rsvp.details.pax > 0);
     },
     endDate() {
       return new Date() > new Date(this.countdownEnd);
